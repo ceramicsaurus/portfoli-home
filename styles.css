@@ -1,0 +1,40 @@
+html {
+    background-image: url("images/house.png");
+    background-size: 100%;
+    overflow-x: hidden;
+    background-repeat: no repeat;
+}
+
+body {
+    margin: 0;
+    min-height: 300vh; /* Create enough content height to allow scrolling */
+}
+
+
+.leftone {
+    width: 20%;
+    height: 20%;
+    margin-top: 65%;
+    margin-left: 27%;
+}
+
+.rightone {
+    width: 20%;
+    height: 20%;
+    margin-top: -5%;
+    margin-left: 53%;
+}
+
+.righttwo {
+    width: 20%;
+    height: 20%;
+    margin-top: 3%;
+    margin-left: 53%
+}
+
+.middleish {
+    width: 40%;
+    height: 40%;
+    margin-top: 3%;
+    margin-left: 27%;
+}
