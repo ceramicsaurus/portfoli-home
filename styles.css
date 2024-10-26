@@ -12,30 +12,41 @@ body {
 
 
 .leftone {
-    width: 20%;
-    height: 20%;
-    margin-top: 65%;
-    margin-left: 27%;
+    width: 30%;
+    height: 45%;  
 }
 
 .rightone {
-    width: 20%;
-    height: 20%;
-    margin-top: -5%;
-    margin-left: 53%;
+    width: 45%;
+    height: 45%;
 }
 
 .righttwo {
-    width: 20%;
-    height: 20%;
-    margin-top: 3%;
-    margin-left: 53%
+    width: 45%;
+    height: 45%;
 }
 
 .middleish {
     width: 40%;
     height: 40%;
-    margin-top: 3%;
+}
+
+#imgDiv1 {
+    margin-top: 65%;
     margin-left: 27%;
 }
 
+#imgDiv2 {
+    margin-top: -5%;
+    margin-left: 53%;
+}
+
+#imgDiv3 {
+    margin-top: 3%;
+    margin-left: 53%
+}
+
+#imgDiv4 {
+    margin-top: 3%;
+    margin-left: 27%;
+}
