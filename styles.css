@@ -7,9 +7,61 @@ html {
 
 body {
     margin: 0;
-    min-height: 300vh; /* Create enough content height to allow scrolling */
 }
 
+.move {
+    width: 100%;
+}
+
+.title {
+    position: absolute;
+    top:0;
+}
+
+.titleimg {
+    width: 70%;
+    transform: translateY(-150px); /* Start off-screen above */
+    opacity: 0;
+    transition: transform 0.6s ease-out, opacity 0.6s ease-out;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}    
+
+.titleimg.animate {
+    transform: translateY(0); /* Original position */
+    opacity: 1;
+}
+
+.cloudleftimg, .cloudrightimg {
+    position: absolute;
+    top: 30%;
+    transform: translateY(-50%);
+    opacity: 0;
+    transition: transform 1.5s ease-out, opacity 0.6s ease-out;
+}
+
+/* Initial off-screen positions */
+.cloudleftimg {
+    width: 40%;
+    left: -150px; /* Off-screen to the left */
+}
+
+.cloudrightimg {
+    width: 40%;
+    right: -150px; /* Off-screen to the right */
+}
+
+/* Animate classes to bring images into view */
+.cloudleftimg.animate {
+    transform: translateX(150px); /* Slide into view */
+    opacity: 1;
+}
+
+.cloudrightimg.animate {
+    transform: translateX(-150px); /* Slide into view */
+    opacity: 1;
+}
 
 .leftone {
     width: 30%;
